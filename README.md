@@ -15,11 +15,11 @@ The project also includes a basic configuration for VS Code. The `settings.json`
 
 Two Istanbul reporters are used:
 
-**text** - Produces output in the terminal:
+- **text** - Produces output in the terminal:
 
 ![test1](https://i.imgur.com/nKKkihs.png)
 
-**lcov** - Produces IDE gutter instrumentation and an HTML report (in `coverage/lcov-report`):
+- **lcov** - Produces IDE gutter instrumentation and an HTML report (in `coverage/lcov-report`):
 
 ![test2](https://i.imgur.com/0DIGZ2k.png)
 ![test3](https://i.imgur.com/WrS1If0.png)
