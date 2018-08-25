@@ -17,9 +17,9 @@ Two Istanbul reporters are used:
 
 **text** - Produces output in the terminal:
 
-![https://i.imgur.com/nKKkihs.png](test1)
+![test1](https://i.imgur.com/nKKkihs.png)
 
 **lcov** - Produces IDE gutter instrumentation and an HTML report (in `coverage/lcov-report`):
 
-![https://i.imgur.com/0DIGZ2k.png](test2)
-![https://i.imgur.com/WrS1If0.png](test3)
+![test2](https://i.imgur.com/0DIGZ2k.png)
+![test3](https://i.imgur.com/WrS1If0.png)
