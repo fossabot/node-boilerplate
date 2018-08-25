@@ -8,7 +8,7 @@
     "test": "yarn build && nyc --reporter=text --reporter=lcov mocha 'dist/test/**/*.test.js'"
   },
   "author": "Matthew Welke",
-  "license": "Apache-2.0",
+  "license": "Unlicense",
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/koa": "^2.0.46",
