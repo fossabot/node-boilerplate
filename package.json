@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/src/index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "yarn run build && nyc --reporter=lcov mocha 'dist/test/**/*.test.js'"
+    "build": "rm -r dist 2> /dev/null; node_modules/.bin/tsc",
+    "test": "yarn build && nyc --reporter=text --reporter=lcov mocha 'dist/test/**/*.test.js'"
   },
   "author": "Matthew Welke",
   "license": "Apache-2.0",

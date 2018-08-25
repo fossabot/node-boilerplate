@@ -3,7 +3,7 @@ import { double } from '../src/double';
 
 const TIMEOUT_MS = 30000;
 
-describe('file "index"', () => {
+describe('file "double"', () => {
 
     describe('arrow function "double"', () => {
 

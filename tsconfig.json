@@ -14,8 +14,7 @@
                 "src/types/*"
             ]
         },
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "noEmitOnError": true
     },
     "include": [
         "src/**/*",
