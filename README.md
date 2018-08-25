@@ -4,8 +4,8 @@ This project is set up to have TypeScript source code (in `src`) compile to Java
 
 ## npm scripts
 
-**build** - Compiles the program source code and test source code.
-**test** - First runs `build`, then uses `nyc` to run the test compiled code, producing coverage reports.
+- **build** - Compiles the program source code and test source code.
+- **test** - First runs `build`, then uses `nyc` to run the test compiled code, producing coverage reports.
 
 ## VS Code
 
