@@ -1,0 +1,24 @@
+{
+  "name": "node-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "yarn run build && nyc --reporter=lcov mocha 'dist/test/**/*.test.js'"
+  },
+  "author": "Matthew Welke",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/koa": "^2.0.46",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "koa": "^2.5.2"
+  }
+}
