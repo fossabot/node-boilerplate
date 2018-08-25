@@ -2,6 +2,10 @@
 
 This project is set up to have TypeScript source code (in `src`) compile to JavaScript (in `dist/src`) to be executed. Mocha tests are also written in TypeScript (in `test`) and compiled to JavaScript (in `dist/test`) to be executed by Istanbul via the `nyc` command, producing code coverage reports in the terminal and an HTML report in the `coverage` directory.
 
+## tsconfig.json
+
+The `tsconfig.json` file in this project is based on that of Microsoft's [TypeScript-Node-Starter project](https://github.com/Microsoft/TypeScript-Node-Starter). Notable changes include modifying the `include` property to include the test source code directory.
+
 ## npm scripts
 
 - **build** - Compiles the program source code and test source code.
