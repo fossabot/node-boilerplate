@@ -10,3 +10,16 @@ This project is set up to have TypeScript source code (in `src`) compile to Java
 ## VS Code
 
 The project also includes a basic configuration for VS Code. The `settings.json` tells VS Code to use the project's TypeScript SDK instead of VS Code's, and the `launch.json` includes launch configurations for debugging the program source code ("Launch Program") and test source code ("Launch Tests").
+
+## Test coverage reports
+
+Two Istanbul reporters are used:
+
+**text** - Produces output in the terminal:
+
+![https://i.imgur.com/nKKkihs.png](test1)
+
+**lcov** - Produces IDE gutter instrumentation and an HTML report (in `coverage/lcov-report`):
+
+![https://i.imgur.com/0DIGZ2k.png](test2)
+![https://i.imgur.com/WrS1If0.png](test3)
