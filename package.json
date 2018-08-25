@@ -7,7 +7,7 @@
     "build": "rm -r dist 2> /dev/null; node_modules/.bin/tsc",
     "test": "yarn build && nyc --reporter=text --reporter=lcov mocha 'dist/test/**/*.test.js'"
   },
-  "author": "Matthew Welke",
+  "author": "Matt Welke",
   "license": "Unlicense",
   "devDependencies": {
     "@types/chai": "^4.1.4",
