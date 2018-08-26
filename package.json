@@ -1,11 +1,15 @@
 {
   "name": "node-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project boilerplate for a Node.js application with Mocha, Chai, and Istanbul, with program source code and test source code written in TypeScript, executed as JavaScript. Does not use ts-node.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/welkie/node-boilerplate"
+  },
   "main": "dist/src/index.js",
   "scripts": {
     "build": "rm -r dist 2> /dev/null; node_modules/.bin/tsc",
-    "test": "yarn build && nyc --reporter=text --reporter=lcov mocha 'dist/test/**/*.test.js'"
+    "test": "npm run build && nyc --reporter=text --reporter=lcov mocha 'dist/test/**/*.test.js'"
   },
   "author": "Matt Welke",
   "license": "Unlicense",
