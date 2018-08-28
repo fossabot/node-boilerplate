@@ -4,6 +4,10 @@ This project is set up to have TypeScript source code (in `src`) compile to Java
 
 The project does not use ts-node.
 
+## Prepare for use
+
+The project is set up to use CircleCI to help with Dependabot keeping the dependencies up to date. If you plan to not use CI or to use CI other than CircleCI, you can clean out CircleCI-related code from the project with the command `rm -r .circleci` from the project root.
+
 ## tsconfig.json
 
 The `tsconfig.json` file in this project is based on that of Microsoft's [TypeScript-Node-Starter project](https://github.com/Microsoft/TypeScript-Node-Starter). Notable changes include modifying the `include` property to include the test source code directory.
