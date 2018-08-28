@@ -1,5 +1,7 @@
 # node-boilerplate
 
+[![CircleCI](https://circleci.com/gh/welkie/node-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/welkie/node-boilerplate/tree/master)
+
 This project is set up to have TypeScript source code (in `src`) compile to JavaScript (in `dist/src`) to be executed. Mocha tests are also written in TypeScript (in `test`) and compiled to JavaScript (in `dist/test`) to be executed by Istanbul via the `nyc` command, producing code coverage reports in the terminal and an HTML report in the `coverage` directory.
 
 The project does not use ts-node.
