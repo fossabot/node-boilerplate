@@ -2,7 +2,8 @@
 
 | Branch | Test result |
 |--------|-------------|
-| Master | [![CircleCI](https://circleci.com/gh/welkie/node-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/welkie/node-boilerplate/tree/master) |
+| Master | [![CircleCI](https://circleci.com/gh/welkie/node-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/welkie/node-boilerplate/tree/master) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate?ref=badge_shield)
+|
 
 
 
@@ -39,3 +40,7 @@ Two Istanbul reporters are used:
 
 ![test2](https://i.imgur.com/0DIGZ2k.png)
 ![test3](https://i.imgur.com/WrS1If0.png)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate?ref=badge_large)
