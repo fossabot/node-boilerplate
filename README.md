@@ -1,9 +1,8 @@
 # node-boilerplate
 
-| Branch | Test result |
-|--------|-------------|
-| Master | [![CircleCI](https://circleci.com/gh/welkie/node-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/welkie/node-boilerplate/tree/master) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate?ref=badge_shield)
-|
+| Branch | CircleCI | FOSSA Status |
+|--------|----------|--------------|
+| Master | [![CircleCI](https://circleci.com/gh/welkie/node-boilerplate/tree/master.svg?style=svg)](https://circleci.com/gh/welkie/node-boilerplate/tree/master) | [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwelkie%2Fnode-boilerplate?ref=badge_shield) |
 
 
 
